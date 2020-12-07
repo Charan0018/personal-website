@@ -3,14 +3,20 @@ body{
   margin: 0;
   text-align: center;
 font-family: 'Merriweather', serif;
-color: #40514E
+color: #40514E;
+background-color: #E4F9F5;
 
+}
+@keyframes slidein {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
 }
 h1{
   margin: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   color: #66BFBF;
+  animation: 3s linear 1s infinite alternate slidein;
 
 }
 h2{
@@ -32,7 +38,7 @@ a{
   text-decoration: none;
 }
 a:hover{
-  color: #EAF6F6;
+  color: #f05454;
 }
 
 p{
@@ -50,13 +56,18 @@ span{
 .copyright{
   color: #EAF6F6;
   font-size: 0.75rem;
-  padding: 20px 0px;
+  padding: 20px 0;
 }
 .skill-row{
   width: 50%;
   margin: 100px auto 100px auto;
   text-align: left;
 
+}
+.project-row{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
 }
 .contact-message{
   width: 40%;
@@ -105,6 +116,34 @@ span{
   margin-left:30px;
 
 
+}
+.HTML5{
+  width: 25%;
+  float:left;
+  margin-right: 30px;
+
+
+}
+
+.microsoftazure{
+  width: 25%;
+  float: left;
+  margin-right:30px;
+}
+.ai{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+.datascience{
+  width: 25%;
+  float: left;
+  margin-right:30px;
+}
+.css{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
 }
 
 .BUTTON_NSC {
