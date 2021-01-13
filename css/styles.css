@@ -5,8 +5,8 @@ body{
 font-family: 'Merriweather', serif;
 color: #40514E;
 background-color: #E4F9F5;
-
 }
+
 @keyframes slidein {
   from { transform: scaleX(0); }
   to   { transform: scaleX(1); }
@@ -144,6 +144,16 @@ span{
   width: 25%;
   float:right;
   margin-left: 30px;
+}
+.bootstrap{
+  width: 25%;
+  float:right;
+  margin-left: 30px;
+}
+.javascript{
+  width: 25%;
+  float: left;
+  margin-right:30px;
 }
 
 .BUTTON_NSC {
